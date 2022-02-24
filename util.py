@@ -44,8 +44,8 @@ def generateOutputFile(building_floor_dict, material_dict):
 
 def sendEmail():
     port = 465  # For SSL
-    sender_email = "davidlucs@gmail.com"
-    receiver_email = "davidlucs@gmail.com"
+    sender_email = "test@gmail.com"
+    receiver_email = "test@gmail.com"
     message = MIMEMultipart("alternative")
     message["Subject"] = "Building task report"
     message["From"] = sender_email
